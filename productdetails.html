@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>All Products - RA Clothing</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+	<div class="navbar">
+		<div class="logo">
+			<img src="logo.png" width="125">
+</div>
+<nav>
+	<ul id="MenuItems">
+		<li><a href="">Home</a></li>
+		<li><a href="">Product</a></li>
+		<li><a href="">About</a></li>
+		<li><a href="">Contact</a></li>
+		<li><a href="">Account</a></li>
+	</ul>
+</nav>
+<img src="baag.png" width="30px" height="30px">
+<img src="menu.png" class="menu-icon" onclick="menutoggle()">
+</div>
+</div>
+<!--- single product details--------------->
+<div class="small-container single-product">
+	<div class="row">
+<div class="col-2">
+	<img src="30.jpg" width="100%">
+</div>
+<div class="col-2">
+	<p>Home/T-shirt</p>
+	<h1>Red T-Shirt by HRX</h1>
+<h4>$49.00</h4>
+<select>
+	<option>select size</option>
+    <option>XXL</option>
+    <option>XL</option>
+    <option>Large</option>
+    <option>Medium</option>
+    <option>Small</option>
+</select>
+<input type="number" value="1">
+<a href="" class="btn">Add To Cart</a>
+<h3>Product Details</h3>
+<p>Give your summer wardrobe a style upgrade with the HRX Men's Active T-Shirt. Team it with a pair of shorts for your morning workout or a denims for an evening out with the guys.</p>
+</div>
+</div>
+</div>
+	<div class="small-container">
+
+<div class="row">
+<div class="col-4">
+		<img src="16.jpeg">
+		<h4>Shirt</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		<h4>$49.99</h4>
+	</div>
+</div>
+	<div class="col-4">
+		<img src="13.jpeg">
+		<h4>Shirt</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		<h4>$49.99</h4>
+	</div>
+</div>
+	<div class="col-4">
+		<img src="18.jpeg">
+		<h4>Shirt</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		<h4>$49.99</h4>
+	</div>
+	</div>
+	<div class="col-4">
+		<img src="15.jpeg">
+		<h4>Shirt</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		<h4>$99.99</h4>
+	</div>
+</div>
+</div>
+</div>
+<!---------- footer-------->
+<div class="footer">
+	<div class="container">
+	<div class="row">
+		<div class="footer-col-1">
+<h3>Download our app</h3>
+<div class="app-logo">
+	<p>Download App for Android and Iso mobile phone.</p>
+<img src="logo1.jpeg">
+<img src="logo2.jpeg">
+</div>
+</div>
+<div class="footer-col-2">
+	<img src="logo3.jpg">
+	<b><p>Our purpose is to sustainably make the pleasure and
+	 benefits of sports accessible to the many.</p></b>
+</div>
+<div class="footer-col-3">
+<h3>Useful links</h3>
+<ul>
+	<b><li>Coupons</li></b>
+	<b><li>Blog Post</li></b>
+	<b><li>Return Policy</li></b>
+	<b><li>Join Affiliate</li></b>
+</ul>
+</div>
+<div class="footer-col-4">
+<div class="social">
+	<h3>Follow Us</h3>
+
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-youtube"></i>
+			<i class="fa fa-twitter"></i>
+		</div>
+	
+
+</div>
+</div>
+</div>
+	<hr>
+<p class="copyright">@Copyright 2021-Ra Clothing</p>
+</div>
+<!----------js for toggle menu--------->
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+	{
+		MenuItems.style.maxHeight = "200px";
+	}
+	else
+	{
+		MenuItems.style.maxHeight = "0px";
+
+	}
+}
+</script>
+</body>
+</html>
